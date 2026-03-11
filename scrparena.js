@@ -1,6 +1,6 @@
 /* ===== CONFIG IMAGENS ===== */
 
-const BONECOS_PATH = "bonecos"; // pasta raiz dos png
+const BONECOS_PATH = "./bonecos"; // pasta raiz dos png
 const BONECOS_LIST = [
     "image (1).png",
     "image (2).png",
