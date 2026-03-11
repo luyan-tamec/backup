@@ -28,7 +28,7 @@ let vencedores = JSON.parse(localStorage.getItem(PREFIX + 'vencedores') || '[]')
 let volumeTick = parseFloat(localStorage.getItem(PREFIX + 'volumeTick') || '0.12');
 
 
-const somVencedor = new Audio("../audios/vencedor.mp3");
+const somVencedor = new Audio(" https://luyan-tamec.github.io/audios/vencedor.mp3");
 somVencedor.volume = 0.100;
 
 function corAleatoria() {
