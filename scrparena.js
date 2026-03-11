@@ -157,7 +157,7 @@ function update() {
             data.vy *= -1;
         }
 
-        // 🔥 ALTERAÇÃO DE LADO AUTOMÁTICA
+        //ALTERAÇÃO DE LADO AUTOMÁTICA
         const img = data.element.querySelector("img");
 
         if (data.vx > 0) {
