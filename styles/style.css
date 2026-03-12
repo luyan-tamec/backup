@@ -113,6 +113,42 @@ button:hover {
   transform: scale(1.1);
 }
 
+.div-check-music {
+  position: relative;
+  display: inline-block;
+  padding: 6px 8px;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  background: var(--accent);
+  color: #000;
+  font-weight: 700;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform .12s ease;
+  border-radius: 15px;
+
+
+}
+
+.tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  bottom: 120%;
+  left: 0%;
+  transform: translateY(190%);
+
+  background: rgb(0, 0, 0);
+  color: rgb(243, 12, 227);
+  padding: 6px 10px;
+  border-radius: 6px;
+
+  font-size: 12px;
+}
+
+.div-check-music:hover .tooltip-text {
+  visibility: visible;
+}
+
 #listaNomes {
   display: flex;
   position: relative;
@@ -522,21 +558,17 @@ input[type="checkbox"] {
 }
 
 label[for="meucheckmusic"] {
-  font-size: 10px;
-  background-color: rgba(210, 33, 140, 0.854);
-  text-align: center;
-  align-self: center;
-  align-content: center;
+  font-size: 12px;
+  line-height: 12px;
+  height: 20px;
+  text-align: left;
   color: #ffffff;
   user-select: none;
-  border-radius: 10px;
-  margin: 2px;
-  height: 22px;
 }
 
 footer {
   background-color: rgb(0, 0, 0);
-  
+
   margin-top: 20px;
   text-align: center;
   font-size: 16px;

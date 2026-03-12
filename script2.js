@@ -76,7 +76,7 @@ canvas.addEventListener('mouseup', () => {
 
 function girar() {
   if (nomes.length < 1) {
-    alert('Adicione pelo menos um nome.');
+    alert('Adiciona um nome Aê Paizao.');
     return;
   }
   const meucheckmusic = document.getElementById("meucheckmusic")

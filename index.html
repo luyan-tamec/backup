@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/stylearena.css">
   <link rel="shortcut icon" href="img/will.png" type="image/x-icon">
-  
+
 </head>
 
 <body id="fundo">
@@ -50,8 +50,12 @@
             <button class="btnembaralhar" id="btnEmbaralhar">🔀 Embaralhar</button>
             <button id="btnIniciar" style="background-color:#43a047;color:#fff;" onclick="iniciar()">Iniciar</button>
             <button id="btnParar" style="background-color:#e53935;color:#fff;">Parar</button><br>
-            <input class="caixacheckmusic" type="checkbox" id="meucheckmusic" checked>
-            <label for="meucheckmusic">Tocar musica ao Iniciar</label>
+            <div class="div-check-music" alt="TOCAR MUSICA AO GIRAR" title="">
+              <input class="caixacheckmusic" type="checkbox" id="meucheckmusic" checked>
+              <label for="meucheckmusic"></label>
+              <span class="tooltip-text">Tocar musica ao girar</span>
+            </div>
+
             <button class="musica" id="btnMusica">🎵 Tocar Música</button>
             <button id="btnFullscreen">🖥️ Tela Cheia</button>
 
@@ -118,7 +122,7 @@
   <script src="script3.js" defer></script>
   <script src="script4.js" defer></script>
   <script src="scrparena.js" defer></script>
-  
+
 
 </body>
 
